@@ -15,8 +15,7 @@ palavra = ''
 contagem = 0
 for valor in lista:
     qtd_de_vezes = lista.count(valor)
-
-
+    
     if qtd_de_vezes > contagem:
         contagem = qtd_de_vezes
         palavra = valor
