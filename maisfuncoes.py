@@ -1,5 +1,6 @@
 variavel = 'casa'
 
+
 def func():
     print(variavel)
 
