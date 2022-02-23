@@ -11,7 +11,7 @@ def multiplica(lista):
     for i in lista:
         r = r * i
     return r
-    
+
 
 if __name__ == '__main__':
     lista = [1, 2, 3, 4, 5]
