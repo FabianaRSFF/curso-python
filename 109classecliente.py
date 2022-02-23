@@ -11,10 +11,12 @@ class Cliente:
         for endereco in self.enderecos:
             print(endereco.cidade, endereco.estado)
 
+
 class Endereco:
     def __init__(self, cidade, estado):
         self.cidade = cidade
         self.estado = estado
+
 
 cliente1 = Cliente('Luiz', 32)
 cliente1.insere_endereco('Belo Horizonte', 'MG')
