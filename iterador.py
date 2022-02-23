@@ -34,16 +34,17 @@ class Minha_Lista:
     def __str__(self):
         return f'{self.__class__.__name__}({self._items})'
 
-    if __name__=='__main__':
-        lista = Minha_Lista()
-        lista.add('Luiz')
-        lista.add('Dilma')
-    for valor in lista:
-        print(valor)
 
-    lista[0] = 'Joao'
-    lista[1]= 'Luiz'
-    lista[2] = 'Dilma'
-    lista[3] = 'Funciona'
-    print(lista[0])
-    print(lista)
+if __name__=='__main__':
+    lista = Minha_Lista()
+    lista.add('Luiz')
+    lista.add('Dilma')
+for valor in lista:
+    print(valor)
+
+lista[0] = 'Joao'
+lista[1] = 'Luiz'
+lista[2] = 'Dilma'
+lista[3] = 'Funciona'
+print(lista[0])
+print(lista)
