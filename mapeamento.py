@@ -1,4 +1,4 @@
-from dados import produtos, pessoas, lista
+from dados2 import produtos, pessoas, lista
 
 #nova_lista = map(lambda x: x * 2, lista) SOLUÇÃO EM MAPEAMENTO
 #SOLUÇÃO EM LIST COMPREHENSION:

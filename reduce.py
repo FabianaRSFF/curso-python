@@ -1,4 +1,4 @@
-from dados import produtos, pessoas, lista
+from dados2 import produtos, pessoas, lista
 from functools import reduce
 # ac =  acumulador
 

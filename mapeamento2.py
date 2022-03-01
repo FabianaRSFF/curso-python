@@ -1,4 +1,4 @@
-from dados import produtos, pessoas, lista
+from dados2 import produtos, pessoas, lista
 
 # Utilizando Filter:
 nova_lista = filter(lambda x: x > 5, lista)
